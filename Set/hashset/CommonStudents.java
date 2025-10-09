@@ -7,9 +7,10 @@ public class CommonStudents {
         HashSet<String> CourseB =new HashSet<>(Arrays.asList("Charlie","bob","donna"));
 
         HashSet<String> common=new HashSet<>(CourseA);
-        common.removeAll(CourseB);  // keeps only common elements
+        common.removeAll(CourseB);  // intersection of set A and Set B,keeps only common elements
 
         System.out.println("Students enrolled in both courses "+ common);
     }
 }
+
 
