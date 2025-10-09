@@ -7,7 +7,7 @@ public class DuplicateWordsFinder {
         System.out.println("Enter a paragraph");
         String paragraph = sc.nextLine().toLowerCase();
 
-        String[] words=paragraph.split("\\W+ ");
+        String[] words=paragraph.split("\\W+");
         HashSet<String> seen=new HashSet<>();
         HashSet<String> duplicates=new HashSet<>();
 
